@@ -1,3 +1,10 @@
-PCA: keep the dimensions with the highest variance, and discard the dimensions with the lowest variance, in some sense to maximize the amount of "randomness" that gets preserved when we compress the data
+PCA: keep the dimensions with the highest variance, and discard the dimensions with the lowest variance, 
+in some sense to maximize the amount of "randomness" that gets preserved when we compress the data
+
+- we want to find a low-dimensional representation that best compresses or "summarizeds" our data
+- to do this we'd like to keep the dimensions with the highest variance and discard dimensions with lower variance.
+  Essentially we'd like to capture the aspects of the data that are "hardest" to predict, while discard the parts that are "easy"
+  to predict
+- this can be don by taking the eigenvectors of the covariance matrix.
 
 min 1$/$N
