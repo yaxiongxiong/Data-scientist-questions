@@ -1,0 +1,5 @@
+PCA: keep the dimensions with the highest variance, and discard the dimensions with the lowest variance, 
+in some sense to maximize the amount of "randomness" 
+that gets preserved when we compress the data
+
+min 1$/$N
